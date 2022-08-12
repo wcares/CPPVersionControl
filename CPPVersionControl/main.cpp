@@ -1,10 +1,15 @@
 #include <iostream>
-
 using namespace std;
+
+void greet()
+{
+	cout << "Welcome You!\n\n" << endl;
+}
+
 
 int main()
 {
-	cout << "Welcome You!\n\n" << endl;
+	greet();
 
 	return 0;
 }
